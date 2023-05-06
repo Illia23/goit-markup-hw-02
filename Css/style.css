@@ -12,6 +12,11 @@ ul {
 /* #2E2F42color nav h1 h2 */
 /* #4D5AE5 color web,buttun withiut all */
 /* style logo */
+/* header */
+.nav .link {
+    text-decoration: none;
+}
+
 .logo {
     color: #4D5AE5;
 }
@@ -22,7 +27,7 @@ ul {
 
 /* style nav */
 
-.nav-list .link {
+.list .link {
     color: #2E2F42;
 }
 
