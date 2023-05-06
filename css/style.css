@@ -1,0 +1,43 @@
+:root {}
+
+body {
+
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #434445;
+}
+
+/* header */
+/* #4D5AE5 , color button and word WEB */
+/* #F4F4FD фон кнопок усіх крім all */
+/* button "all" 
+#404BBF background
+#ffffff color */
+.nav .logo {
+    color: #4D5AE5;
+}
+
+
+.nav .logo-studio {
+    color: #2E2F42;
+}
+
+.nav .link {
+    text-decoration: none;
+}
+
+.list-conect .link {
+    color: #2E2F42;
+}
+
+.address-list .social {
+    color: #434445;
+}
+
+/* #2E2F42 h1.. studio ,nav */
+/* section butt */
+
+.list-butt .butt-filt {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+}
