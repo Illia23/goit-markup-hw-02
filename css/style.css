@@ -8,11 +8,7 @@ body {
 }
 
 /* header */
-/* #4D5AE5 , color button and word WEB */
-/* #F4F4FD фон кнопок усіх крім all */
-/* button "all" 
-#404BBF background
-#ffffff color */
+
 .nav .logo {
     color: #4D5AE5;
 }
@@ -34,10 +30,71 @@ body {
     color: #434445;
 }
 
-/* #2E2F42 h1.. studio ,nav */
+/* hero image */
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero .title {
+    color: #ffffff;
+}
+
+.hero .button {
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
+
+/* section 1 */
+
+.section-1 .title {
+    color: #2E2F42;
+}
+
+/* section2 */
+.section-2 .title {
+    color: #2E2F42;
+}
+
+.section-3 .title {
+    color: #2E2F42;
+}
+
 /* section butt */
 
 .list-butt .butt-filt {
     color: #4D5AE5;
     background-color: #F4F4FD;
+}
+
+.list-butt .butt-all {
+    color: #ffffff;
+    background-color: #404BBF;
+}
+
+/* gallary */
+
+.gallary .title {
+    color: #2E2F42;
+}
+
+.gallary .title-h1 {
+    color: #2E2F42;
+}
+
+/* Footer */
+
+footer {
+    background-color: #2E2F42;
+}
+
+.footer .footer-logo {
+    color: #4D5AE5;
+}
+
+.footer-logo .footer-studio {
+    color: #F4F4FD;
+}
+
+.footer .footer-text {
+    color: #F4F4FD;
 }
