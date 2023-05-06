@@ -11,6 +11,7 @@ body {
 
 .nav .logo {
     color: #4D5AE5;
+    text-transform: uppercase;
 }
 
 
@@ -22,7 +23,11 @@ body {
     text-decoration: none;
 }
 
-.list-conect .link {
+.nav .list {
+    list-style: none;
+}
+
+.list-conect .menu {
     color: #2E2F42;
 }
 
@@ -87,8 +92,13 @@ footer {
     background-color: #2E2F42;
 }
 
+.footer .link {
+    text-decoration: none;
+}
+
 .footer .footer-logo {
     color: #4D5AE5;
+    text-transform: uppercase;
 }
 
 .footer-logo .footer-studio {
