@@ -28,6 +28,7 @@ body {
     color: #2E2F42;
 }
 
+.address-list .link,
 .nav .link,
 .nav .list,
 .address .list {
@@ -45,7 +46,9 @@ body {
 }
 
 .list-conect .menu:hover,
-.list-conect .menu:focus {
+.list-conect .menu:focus,
+.address-list .social:hover,
+.address-list .social:focus {
     color: #404bbf;
 }
 
@@ -55,6 +58,9 @@ body {
 
 .address-list .social {
     color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* hero image */
