@@ -1,13 +1,15 @@
 :root {}
 
 body {
-    color: #434445;
+    color: #434455;
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
 
 }
 
 /* header */
+/* : #404bbf focus
+ */
 
 .nav .logo {
     color: #4D5AE5;
@@ -26,20 +28,33 @@ body {
     color: #2E2F42;
 }
 
-.nav .link {
+.nav .link,
+.nav .list,
+.address .list {
     text-decoration: none;
 }
 
-.nav .list {
-    list-style: none;
-}
+
 
 .list-conect .menu {
     color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.list-conect .menu:hover,
+.list-conect .menu:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
 }
 
 .address-list .social {
-    color: #434445;
+    color: #434455;
 }
 
 /* hero image */
