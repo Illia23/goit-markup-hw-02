@@ -2,6 +2,7 @@
     --text: #4D5AE5;
     --bacground: #F4F4FD;
     --titleportfolio: #2e2f42;
+    --textportfolio: #434455;
 }
 
 body {
@@ -187,6 +188,12 @@ main .list {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+
+.list-photo .text {
+    color: var(--textportfolio);
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 /* Footer */
