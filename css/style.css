@@ -1,4 +1,8 @@
-:root {}
+:root {
+    --text: #4D5AE5;
+    --bacground: #F4F4FD;
+    --titleportfolio: #2e2f42;
+}
 
 body {
     color: #434455;
@@ -74,7 +78,7 @@ body {
     color: #ffffff;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.11;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 }
@@ -85,7 +89,7 @@ body {
     color: #ffffff;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.07;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -156,11 +160,18 @@ body {
 /* section butt */
 
 .list-butt .butt-filt {
-    color: #4D5AE5;
-    background-color: #F4F4FD;
+    cursor: pointer;
+    color: var(--text);
+    background-color: var(--bacground);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
 }
 
-.list-butt .butt-all {
+.list-butt .butt-filt:hover,
+.list-butt .butt-filt:focus {
     color: #ffffff;
     background-color: #404BBF;
 }
@@ -168,6 +179,14 @@ body {
 /* gallary */
 main .list {
     list-style: none;
+}
+
+.list-photo .title {
+    color: var(--titleportfolio);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 /* Footer */
