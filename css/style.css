@@ -31,7 +31,8 @@ body {
 .address-list .link,
 .nav .link,
 .nav .list,
-.address .list {
+.address .list,
+.list-photo .link {
     text-decoration: none;
 }
 
@@ -105,13 +106,8 @@ body {
 }
 
 /* gallary */
-
-.gallary .title {
-    color: #2E2F42;
-}
-
-.gallary .title-h1 {
-    color: #2E2F42;
+main .list {
+    list-style: none;
 }
 
 /* Footer */
