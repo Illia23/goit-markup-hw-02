@@ -46,8 +46,7 @@ body {
 
 }
 
-.hero .button:hover,
-.hero .button:focus,
+
 .list-conect .menu:hover,
 .list-conect .menu:focus,
 .address-list .social:hover,
@@ -86,9 +85,14 @@ body {
     color: #ffffff;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.07;
     letter-spacing: 0.04em;
     cursor: pointer;
+}
+
+.hero .button:hover,
+.hero .button:focus {
+    background-color: #404BBF;
 }
 
 /* section 1 */
