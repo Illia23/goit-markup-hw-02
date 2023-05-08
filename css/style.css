@@ -161,6 +161,7 @@ body {
 /* section butt */
 
 .list-butt .butt-filt {
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     color: var(--text);
     background-color: var(--bacground);
